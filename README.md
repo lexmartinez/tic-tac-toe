@@ -17,6 +17,8 @@ $ npm run build
 
 ```
 
+> To emit events to pusher we need to use a simple **NodeJS** server in order to run it use the command `npm run server`.
+
 ## Screenshots
 
 ![](https://github.com/lexmartinez/tic-tac-toe/raw/master/src/assets/screenshot-1.png) 

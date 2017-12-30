@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One|Permanent+Marker');
+
+.footer {
+  position: fixed;
+  bottom:10px;
+  width: 100%;
+  text-align:center;
+  color: #E5CCFF;
+  font-size: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+}
+
+.winner {
+  margin-top: -40px;
+  margin-bottom:30px;
+  width: 100%;
+  text-align:center;
+  color: #E5CCFF;
+  font-size: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+}
+
+.winner a {
+  cursor: pointer;
+}
+
+.winner a:hover {
+  text-decoration: underline;
+}
+.footer input {
+  color: #E5CCFF;
+  font-size: 30px;
+  font-family: 'Francois One', sans-serif;
+  font-weight: bold;
+  border: 0px solid;
+  background: transparent;
+  text-align: center;
+}
+
+.title {
+  font-family: 'Francois One', cursive;
+  font-size: 70px;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+
+.board {
+  background-image: url("http://react-tictactoe.stefanwille.com/images/grid.png");
+  width: 450px;
+  height: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(145px, auto);
+}
+
+.cell {
+  font-family: 'Permanent Marker', sans-serif;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 90px;
+  cursor: pointer;
+}
+
+.one {
+  grid-column: 1;
+  grid-row: 1;
+}
+.two {
+  grid-column: 2;
+  grid-row: 1;
+}
+.three {
+  grid-column: 3;
+  grid-row: 1;
+}
+.four {
+  grid-column: 1;
+  grid-row: 2;
+}
+.five {
+  grid-column: 2;
+  grid-row: 2;
+}
+.six {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.seven {
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.eight {
+  grid-column: 2;
+  grid-row: 3;
+}
+
+.nine {
+  grid-column: 3;
+  grid-row: 3;
+}
