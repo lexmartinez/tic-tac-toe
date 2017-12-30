@@ -1,27 +1,29 @@
-# TicTacToe
+# tic-tac-toe
+:space_invader: An Angular implementation of Tic Tac Toe for two players (online) using Pusher : [#100DaysOfCode](http://100daysofcode.com/)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2.
+> Day 5 of #100DaysOfCode Challenge
 
-## Development server
+## Build Setup
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+``` bash
+# install dependencies
+$ npm install
 
-## Code scaffolding
+# development server at localhost:4200
+$ npm start
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# bundle app
+$ npm run build
 
-## Build
+```
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Screenshots
 
-## Running unit tests
+![](https://github.com/lexmartinez/tic-tac-toe/raw/master/src/assets/screenshot-1.png) 
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## License
 
-## Running end-to-end tests
+This project is licensed under MIT License - see the [LICENSE.md](https://github.com/lexmartinez/tic-tac-toe/blob/master/LICENSE.md) file for details
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+> This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.6.2. To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).

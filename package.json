@@ -1,7 +1,23 @@
 {
   "name": "tic-tac-toe",
-  "version": "0.0.0",
+  "version": "0.0.1",
+  "author": "Lex Martinez <lex0316@gmail.com>",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lexmartinez/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/lexmartinez/tic-tac-toe",
+  "description": "An Angular implementation of Tic Tac Toe for two players (online) using Pusher",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lexmartinez/tic-tac-toe.git"
+  },
+  "keywords": [
+    "angular",
+    "100daysofcode",
+    "tic-tac-toe",
+    "pusher"
+  ],
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
