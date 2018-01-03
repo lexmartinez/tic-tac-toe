@@ -1,8 +1,6 @@
 # tic-tac-toe
 :space_invader: An Angular implementation of Tic Tac Toe for two players (online) using Pusher : [#100DaysOfCode](http://100daysofcode.com/)
 
-> Day 5 of #100DaysOfCode Challenge
-
 ## Build Setup
 
 ``` bash
